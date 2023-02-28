@@ -17,9 +17,9 @@ class _SplashScreenState extends State<SplashScreen> {
   _checkUserSession() {
     bool value = false;
     if (value) {
-      navigateAndRemoveUntil(context: context, screen: const LoginScreen());
-    } else {
       navigateAndRemoveUntil(context: context, screen: const HomeScreen());
+    } else {
+      navigateAndRemoveUntil(context: context, screen: const LoginScreen());
     }
   }
 

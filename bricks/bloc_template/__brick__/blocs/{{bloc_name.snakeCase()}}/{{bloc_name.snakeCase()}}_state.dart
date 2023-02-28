@@ -8,4 +8,4 @@ class {{bloc_name.pascalCase()}}State extends Equatable {
   List<Object?> get props => [];
 }
 
-class {{bloc_name.pascalCase()}}InitialState extends {{name.pascalCase()}}State {}
+class {{bloc_name.pascalCase()}}InitialState extends {{bloc_name.pascalCase()}}State {}
