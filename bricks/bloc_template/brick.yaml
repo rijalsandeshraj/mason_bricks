@@ -26,3 +26,9 @@ vars:
     description: Your project name
     default: App
     prompt: What is the name of your project?
+
+  bloc_name:
+    type: string
+    description: Your bloc name
+    default: App
+    prompt: What is the name of your bloc?
