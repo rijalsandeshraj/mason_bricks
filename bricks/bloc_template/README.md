@@ -12,7 +12,7 @@ Latest versions of [equatable], [flutter_bloc] and [http]
 mason make bloc_template --name AppName --bloc_name BlocName
 ```
 
-Note: It's advised to implement the brick inside the root directory of your
+`Note:` It's advised to implement the brick inside the root directory of your
 Flutter project as the template generates the 'lib' folder with all code files.
 
 ## Variables ✨
