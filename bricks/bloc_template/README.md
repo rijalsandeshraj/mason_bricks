@@ -15,6 +15,13 @@ mason make bloc_template --name AppName --bloc_name BlocName
 `Note:` It's advised to implement the brick inside the root directory of your
 Flutter project as the template generates the 'lib' folder with all code files.
 
+To add this brick globally in your local machine from git url with git path,
+execute the following command:
+
+```
+mason add -g bloc_template --git-url https://github.com/rijalsandeshraj/mason_bricks --git-path bricks/bloc_template
+```
+
 ## Variables ✨
 
 | variable    | description         | default | type     |

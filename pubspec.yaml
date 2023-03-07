@@ -1,5 +1,5 @@
-name: bloc_template
-description: Brick for implementing BLoC architecture in your Flutter project.
+name: mason_bricks
+description: Pubspec file for working with mason bricks.
 
 publish_to: "none"
 
