@@ -46,7 +46,7 @@ class _SplashScreenState extends State<SplashScreen> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Text(
-                '{{name.upperCase}}',
+                '{{{name.titleCase()}}}',
                 style: primaryTextStyle,
               ),
               const SizedBox(height: 20),

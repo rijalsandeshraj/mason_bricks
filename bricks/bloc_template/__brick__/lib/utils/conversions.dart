@@ -6,7 +6,7 @@ String interpolate(String string, {required List<dynamic> params}) {
   return result;
 }
 
-extension StringFormating on String {
+extension StringFormatting on String {
   format({required List<dynamic> params}) {
     return interpolate(this, params: params);
   }

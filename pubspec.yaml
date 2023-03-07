@@ -3,7 +3,7 @@ description: Brick for implementing BLoC architecture in your Flutter project.
 
 publish_to: "none"
 
-version: 1.0.0+1
+version: 1.0.0
 
 environment:
   sdk: ">=2.18.4 <3.0.0"
