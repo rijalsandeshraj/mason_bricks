@@ -1,11 +1,11 @@
-name: bloc_template
-description: A mason brick for implementing BLoC architecture in your Flutter project.
-repository: https://github.com/rijalsandeshraj/mason_bricks/tree/main/bricks/bloc_template
+name: provider_template
+description: A mason brick for implementing Provider in your Flutter project.
+repository: https://github.com/rijalsandeshraj/mason_bricks/tree/main/bricks/provider_template
 
 # The following defines the version and build number for your brick.
 # A version number is three numbers separated by dots, like 1.2.34
 # followed by an optional build number (separated by a +).
-version: 0.1.0+2
+version: 0.1.0+1
 
 # The following defines the environment for the current brick.
 # It includes the version of mason that the brick requires.
@@ -28,8 +28,8 @@ vars:
     default: App
     prompt: What is the name of your project?
 
-  bloc_name:
+  provider_name:
     type: string
-    description: Your bloc name
+    description: Your provider name
     default: App
-    prompt: What is the name of your bloc?
+    prompt: What is the name of your provider?
