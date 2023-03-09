@@ -45,6 +45,8 @@ mason add -g bloc_template --git-url https://github.com/rijalsandeshraj/mason_br
 │   ├── data
 │   │   ├── api_providers
 │   │   │   └── app_api_provider.dart
+│   │   ├── models
+│   │   │   └── model.dart
 │   │   ├── repositories
 │   │   │   └── app_repository.dart
 │   │   └── api_services.dart
