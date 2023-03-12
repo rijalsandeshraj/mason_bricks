@@ -1,6 +1,6 @@
 # 0.1.0+3
 
-- Added models template
+- Added ApiResponse model
 
 # 0.1.0+2
 
