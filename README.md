@@ -15,15 +15,6 @@ A collection of packages that enable developers to create and consume reusable t
 
 ![Mason Demo][mason_demo]
 
-## Packages
-
-| Package                                                                             | Pub                                                                                                    |
-| ----------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
-| [mason](https://github.com/felangel/mason/tree/master/packages/mason)               | [![pub package](https://img.shields.io/pub/v/mason.svg)](https://pub.dev/packages/mason)               |
-| [mason_api](https://github.com/felangel/mason/tree/master/packages/mason_api)       | [![pub package](https://img.shields.io/pub/v/mason_api.svg)](https://pub.dev/packages/mason_api)       |
-| [mason_cli](https://github.com/felangel/mason/tree/master/packages/mason_cli)       | [![pub package](https://img.shields.io/pub/v/mason_cli.svg)](https://pub.dev/packages/mason_cli)       |
-| [mason_logger](https://github.com/felangel/mason/tree/master/packages/mason_logger) | [![pub package](https://img.shields.io/pub/v/mason_logger.svg)](https://pub.dev/packages/mason_logger) |
-
 ## Quick Start
 
 ```sh
@@ -33,13 +24,20 @@ dart pub global activate mason_cli
 # 🚀 Initialize mason
 mason init
 
-# 🧱 Use your first brick
-mason make hello
+# 🧱 For using bloc_template
+mason make bloc_template
 ```
+
+## Bricks 🧱
+
+| Brick                                                              | Description                                                               | Version |
+| ------------------------------------------------------------------ | ------------------------------------------------------------------------- | ------- |
+| [bloc_template](https://brickhub.dev/bricks/bloc_template)         | A mason brick for implementing BLoC architecture in your Flutter project. | 0.1.0+2 |
+| [provider_template](https://brickhub.dev/bricks/provider_template) | A mason brick for implementing Provider in your Flutter project.          | 0.1.0+1 |
 
 ## Documentation
 
-View the full documentation [here](https://github.com/felangel/mason/tree/master/packages/mason_cli).
+View the full documentation of 'mason_cli' [here](https://github.com/felangel/mason/tree/master/packages/mason_cli).
 
 ## Video Tutorials
 
@@ -50,5 +48,9 @@ View the full documentation [here](https://github.com/felangel/mason/tree/master
 |                   **Meet Mason: Flutter Vikings 2022** by [Flutter Community](https://www.youtube.com/@FlutterCommunity)                    |  **Felix Angelov Demos Mason** by [_Very Good Ventures_](https://www.youtube.com/channel/UCMEL3IZanJyEmU9ycwnAGNA)   |
 | :-----------------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------: |
 | [![Meet Mason: Intro to Templating and Custom Code Generation](https://img.youtube.com/vi/LXhgiF5HiQg/0.jpg)](https://youtu.be/LXhgiF5HiQg) | [![Mason Video Tutorial](https://img.youtube.com/vi/G4PTjA6tpTU/0.jpg)](https://www.youtube.com/watch?v=G4PTjA6tpTU) |
+
+## Maintainers
+
+- [Sandesh Rijal](https://github.com/rijalsandeshraj)
 
 [mason_demo]: https://raw.githubusercontent.com/felangel/mason/master/assets/mason_demo.gif

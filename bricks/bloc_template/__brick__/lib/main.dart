@@ -17,9 +17,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: '{{{name.titleCase()}}}',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
+      theme: ThemeData(primarySwatch: Colors.blue),
       home: BlocProvider(
         create: (context) => {{bloc_name.pascalCase()}}Bloc(),
         child: const SplashScreen(),

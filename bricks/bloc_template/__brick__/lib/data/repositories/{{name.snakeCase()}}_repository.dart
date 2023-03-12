@@ -13,7 +13,7 @@ class {{name.pascalCase()}}Repository {
 
   {{name.pascalCase()}}Repository._();
 
-  // Gets data from API and stores it in the repository variable
+  // Gets data from API and stores it in the data variable
   Future<void> getData() async {
     var fetchedData = await {{name.camelCase()}}ApiProvider.getData();
     data = fetchedData;

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:provider/provider.dart';
 
-import 'blocs/{{bloc_name.snakeCase()}}/{{bloc_name.snakeCase()}}_bloc.dart';
+import 'providers/{{provider_name.snakeCase()}}_provider.dart';
 import 'views/screens/splash_screen.dart';
 
 void main() async {
@@ -14,15 +14,13 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: '{{{name.titleCase()}}}',
-      debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: BlocProvider(
-        create: (context) => {{bloc_name.pascalCase()}}Bloc(),
-        child: const SplashScreen(),
+    return ChangeNotifierProvider(
+      create: (context) => {{provider_name.pascalCase()}}Provider(),
+      child: MaterialApp(
+        title: '{{{name.titleCase()}}}',
+        debugShowCheckedModeBanner: false,
+        theme: ThemeData(primarySwatch: Colors.blue),
+        home: SplashScreen(),
       ),
     );
   }
