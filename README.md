@@ -33,7 +33,7 @@ mason make bloc_template
 | Brick                                                              | Description                                                               | Version |
 | ------------------------------------------------------------------ | ------------------------------------------------------------------------- | ------- |
 | [bloc_template](https://brickhub.dev/bricks/bloc_template)         | A mason brick for implementing BLoC architecture in your Flutter project. | 0.1.0+3 |
-| [provider_template](https://brickhub.dev/bricks/provider_template) | A mason brick for implementing Provider in your Flutter project.          | 0.1.0+1 |
+| [provider_template](https://brickhub.dev/bricks/provider_template) | A mason brick for implementing Provider in your Flutter project.          | 0.1.0+2 |
 
 ## Documentation
 

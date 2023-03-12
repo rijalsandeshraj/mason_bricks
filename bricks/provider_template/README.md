@@ -1,4 +1,4 @@
-# bloc_template
+# provider_template
 
 A mason brick for implementing Provider in your Flutter project.
 
@@ -9,7 +9,7 @@ Latest versions of [provider] and [http]
 ## Usage 🚀
 
 ```
-mason make provider_template --name AppName --bloc_name ProviderName
+mason make provider_template --name AppName --provider_name ProviderName
 ```
 
 `Note:` It's advised to implement the brick inside the root directory of your
