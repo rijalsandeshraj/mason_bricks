@@ -19,25 +19,20 @@ To add this brick globally in your local machine from git url with git path,
 execute the following command:
 
 ```
-mason add -g bloc_template --git-url https://github.com/rijalsandeshraj/mason_bricks --git-path bricks/provider_template
+mason add -g provider_template --git-url https://github.com/rijalsandeshraj/mason_bricks --git-path bricks/provider_template
 ```
 
 ## Variables ✨
 
-| variable        | description         | default | type     |
-| --------------- | ------------------- | ------- | -------- |
-| `name`          | name of the project | App     | `string` |
-| `provider_name` | name of the bloc    | App     | `string` |
+| variable        | description          | default | type     |
+| --------------- | -------------------- | ------- | -------- |
+| `name`          | name of the project  | App     | `string` |
+| `provider_name` | name of the provider | App     | `string` |
 
 ## Output 📦
 
 ```
 ├── lib
-│   ├── blocs
-│   │   └── app
-│   │       ├── app_bloc.dart
-│   │       ├── app_event.dart
-│   │       └── app_state.dart
 │   ├── constants
 │   │   ├── api_endpoints.dart
 │   │   ├── colors.dart
@@ -46,12 +41,13 @@ mason add -g bloc_template --git-url https://github.com/rijalsandeshraj/mason_br
 │   │   ├── api_providers
 │   │   │   └── app_api_provider.dart
 │   │   ├── models
+│   │   │   ├── api_response.dart
 │   │   │   └── model.dart
-│   │   ├── repositories
-│   │   │   └── app_repository.dart
 │   │   └── api_services.dart
+│   ├── providers
+│   │   └── app_provider.dart
 │   ├── utils
-│   │   ├── conversions.dart
+│   │   ├── extensions.dart
 │   │   ├── navigator.dart
 │   │   └── show_custom_snack_bar.dart
 │   ├── views

@@ -51,7 +51,7 @@ mason add -g bloc_template --git-url https://github.com/rijalsandeshraj/mason_br
 │   │   │   └── app_repository.dart
 │   │   └── api_services.dart
 │   ├── utils
-│   │   ├── conversions.dart
+│   │   ├── extensions.dart
 │   │   ├── navigator.dart
 │   │   └── show_custom_snack_bar.dart
 │   ├── views
